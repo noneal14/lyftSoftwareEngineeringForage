@@ -5,6 +5,9 @@ from engine.capulet_engine import CapuletEngine
 from engine.willoughby_engine import WilloughbyEngine
 from battery.spindler_battery import SpindlerBattery
 from battery.nubbin_battery import NubbinBattery
+from tires.carrigan_tires import CarriganTires
+from tires.octoprime_tires import OctoprimeTires
+
 
 class CarFactory(ABC):
     
